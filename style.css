@@ -1,0 +1,106 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: #0b1a33;
+    color: white;
+    margin: 0;
+}
+
+/* HEADER PRINCIPAL */
+.main-header, .sub-header {
+    background: linear-gradient(90deg, #0b1a33, #10284e);
+    text-align: center;
+    padding: 25px;
+}
+
+.site-logo {
+    width: 70px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+/* SECTION ACCUEIL */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero-buttons .btn {
+    margin: 10px;
+}
+
+/* BOUTONS */
+.btn {
+    background: #e0b000;
+    padding: 12px 22px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.back-link {
+    color: #e0b000;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+/* TABLEAUX */
+table {
+    width: 90%;
+    margin: 20px auto;
+    background: white;
+    color: black;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.team-logo {
+    width: 30px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+/* CALENDRIER */
+#clasico-calendar, #ranked-calendar {
+    width: 90%;
+    margin: 20px auto;
+    background: #10284e;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+#clasico-calendar h3, #ranked-calendar h3 {
+    margin-top: 15px;
+    color: #e0b000;
+}
+
+/* CARTES CATÉGORIES */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background: #10284e;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #10284e;
+    margin-top: 40px;
+}
