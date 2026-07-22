@@ -1,0 +1,14 @@
+{
+  "clasico": {
+    "teams": [
+      { "name": "FC Vic-la-Gardiole", "logo": "logos/vic.png", "points": 12, "diff": 8, "goals": 15, "conceded": 7 },
+      { "name": "Montpellier Sud", "logo": "logos/montpellier.png", "points": 10, "diff": 5, "goals": 12, "conceded": 7 },
+      { "name": "Sète Olympique", "logo": "logos/sete.png", "points": 7, "diff": -1, "goals": 9, "conceded": 10 },
+      { "name": "Frontignan FC", "logo": "logos/frontignan.png", "points": 4, "diff": -6, "goals": 5, "conceded": 11 }
+    ],
+    "calendar": {
+      "J1": [
+        { "match": "Montpellier vs Sète", "score": "2 - 1" },
+        { "match": "Vic vs Frontignan", "score": "3 - 0" }
+      ],
+      "J2": [
